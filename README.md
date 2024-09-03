@@ -12,4 +12,4 @@ Currently, the experimentation platform holds four modules:
 
 ## Experimentation Scripts
 
-Checkout the [scripts](./impressions-evaluation/scripts/) folder inside the `impressions-evaluation` module for a comprehensive list of all the available experiments. In the near future, these scripts will be migrated to their dedicated `script` folder at the root of the platform.
+Checkout the [README](./impressions-evaluation/README.md) inside the `impressions-evaluation` module for a comprehensive list of all the available experiments. In the near future, scripts will be migrated to their dedicated `script` folder at the root of the platform.
