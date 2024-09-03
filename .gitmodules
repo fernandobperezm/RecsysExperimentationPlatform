@@ -1,3 +1,6 @@
 [submodule "impressions-evaluation"]
 	path = impressions-evaluation
 	url = https://github.com/fernandobperezm/polimiphd-ImpressionsEvaluation.git
+[submodule "recsys-framework-extensions"]
+	path = recsys-framework-extensions
+	url = https://github.com/fernandobperezm/polimiphd-RecSysFrameworkExtensions.git
