@@ -1,7 +1,3 @@
-[submodule "impressions-evaluation"]
-	path = impressions-evaluation
-	url = https://github.com/fernandobperezm/polimiphd-ImpressionsEvaluation.git
-	branch = main
 [submodule "recsys-framework-extensions"]
 	path = recsys-framework-extensions
 	url = https://github.com/fernandobperezm/polimiphd-RecSysFrameworkExtensions.git
@@ -13,4 +9,8 @@
 [submodule "impressions-datasets"]
 	path = impressions-datasets
 	url = https://github.com/fernandobperezm/polimiphd-DatasetsWithImpressions.git
+	branch = main
+[submodule "impressions-evaluation"]
+	path = impressions-evaluation
+	url = https://github.com/fernandobperezm/polimiphd-ImpressionsEvaluation.git
 	branch = main
