@@ -4,3 +4,7 @@
 [submodule "recsys-framework-extensions"]
 	path = recsys-framework-extensions
 	url = https://github.com/fernandobperezm/polimiphd-RecSysFrameworkExtensions.git
+[submodule "RecSysFramework_public"]
+	path = RecSysFramework_public
+	url = https://github.com/fernandobperezm/polimiphd-RecSysFramework_Public.git
+	branch = tooling-macm1
