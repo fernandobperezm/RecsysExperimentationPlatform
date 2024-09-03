@@ -8,3 +8,6 @@
 	path = RecSysFramework_public
 	url = https://github.com/fernandobperezm/polimiphd-RecSysFramework_Public.git
 	branch = tooling-macm1
+[submodule "impressions-datasets"]
+	path = impressions-datasets
+	url = https://github.com/fernandobperezm/polimiphd-DatasetsWithImpressions.git
