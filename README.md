@@ -5,10 +5,13 @@ This repository holds a collection of libraries to experiment with recommender s
 ## Platform Modules
 Currently, the experimentation platform holds four modules:
 
-- Module `impressions-datasets` provides an API to load in memory different public datasets holding interactions and impressions. More information on the [module's README](https://github.com/fernandobperezm/polimiphd-DatasetsWithImpressions/blob/main/README.md)  
-- Module `impressions-evaluation` implements many submodules to create experiments involving impression-aware recommendation models. More information on the [module's README](https://github.com/fernandobperezm/polimiphd-ImpressionsEvaluation/blob/main/README.md)  
-- Module `RecSysFramework_public` provides an API to load in memory different public datasets holding interactions and impressions. More information on the [module's README](https://github.com/fernandobperezm/polimiphd-RecSysFramework_Public/blob/main/README.md)
-- Module `recsys-framework-extensions` extends the APIs of the `RecSysFramework_public` module and re-implements some of them to ensure faster computations with JIT compilation, parallel processing of recommendation tasks, among others. More information on the [module's README](https://github.com/fernandobperezm/polimiphd-RecSysFrameworkExtensions/blob/main/README.md) 
+- Module `impressions-datasets` provides an API to load in memory different public datasets holding interactions and impressions. More information is available in the [module's README](https://github.com/fernandobperezm/polimiphd-DatasetsWithImpressions/blob/main/README.md). 
+
+- Module `impressions-evaluation` implements many submodules to create experiments involving impression-aware recommendation models. More information is available in the [module's README](https://github.com/fernandobperezm/polimiphd-ImpressionsEvaluation/blob/main/README.md).
+
+- Module `RecSysFramework_public` provides APIs to perform various experiments on recommendation models, e.g., reading and processing datasets, implementation of recommendation techniques, evaluation of recommendations, among others. More information is available in the [module's README](https://github.com/fernandobperezm/polimiphd-RecSysFramework_Public/blob/main/README.md).
+
+- Module `recsys-framework-extensions` extends the APIs of the `RecSysFramework_public` module by re-implementing some of them to ensure faster computations with JIT compilation, parallel processing of recommendation tasks, among others. Additionally, extends evaluation APIs to perform statistical testing and compute confidence interval on results. Lastly, it provides quality-of-life traits when developing models, such as logging, memory consumption, and execution time measurement. More information is available in the [module's README](https://github.com/fernandobperezm/polimiphd-RecSysFrameworkExtensions/blob/main/README.md).
 
 ## Experimentation Scripts
 
