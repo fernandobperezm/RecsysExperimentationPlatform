@@ -9,9 +9,10 @@ Currently, the experimentation platform holds four modules:
 
 - Module `impressions-evaluation` implements many submodules to create experiments involving impression-aware recommendation models. More information is available in the [module's README](https://github.com/fernandobperezm/polimiphd-ImpressionsEvaluation/blob/main/README.md).
 
-- Module `RecSysFramework_public` provides APIs to perform various experiments on recommendation models, e.g., reading and processing datasets, implementation of recommendation techniques, and evaluation of recommendations, among others. More information is available in the [module's README](https://github.com/fernandobperezm/polimiphd-RecSysFramework_Public/blob/main/README.md).
-
 - Module `recsys-framework-extensions` extends the APIs of the `RecSysFramework_public` module by re-implementing some of them to ensure faster computations with JIT compilation, and parallel processing of recommendation tasks, among others. Additionally, it extends evaluation APIs to perform statistical testing and compute confidence intervals on results. Lastly, it provides quality-of-life traits when developing models, such as logging, memory consumption, and execution time measurement. More information is available in the [module's README](https://github.com/fernandobperezm/polimiphd-RecSysFrameworkExtensions/blob/main/README.md).
+
+- Module `RecSysFramework_public` provides APIs to perform various experiments on recommendation models, e.g., reading and processing datasets, implementation of recommendation techniques, and evaluation of recommendations, among others. Note that this is a private repository developed by [Maurizio Ferrari Dacrema](https://github.com/MaurizioFD). The open-source implementation of this module is called [RecSys2019_DeepLearning_Evaluation](https://github.com/MaurizioFD/RecSys2019_DeepLearning_Evaluation).
+
 
 ## Experimentation Scripts
 
